@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <Botton
+        android:id="@+id/botton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_vertical="center"
+        android:text="Hello, I am a Button" />
+
+    <botton
+        android:layout_width="105dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout
+        android:text="helloworld"
+        android:textAlignment="center"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
