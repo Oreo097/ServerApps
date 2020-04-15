@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ControlService:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ControlService_jar</output-path>
+    <root id="archive" name="ControlService.jar">
+      <element id="module-output" name="ControlService" />
+    </root>
+  </artifact>
+</component>

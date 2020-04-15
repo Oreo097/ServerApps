@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ControlService:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1642b224-4dce-4a48-9922-cea2777a35c9" name="Default Changelist" comment="" />
+    <list default="true" id="1642b224-4dce-4a48-9922-cea2777a35c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ControlService_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TCPCORE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TCPCore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/USER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,18 +27,42 @@
     </option>
     <option name="SCHEME" value="Project" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1aWnVOEw0Y56siv8xTV3PKIQlzQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="controlservice" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ControlService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,17 +78,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="178" key="#Project_Structure" timestamp="1586861045812">
+    <state x="890" y="275" key="#Project_Structure" timestamp="1586945324092">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="872" y="178" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1586861045812" />
+    <state x="890" y="275" key="#Project_Structure/0.0.2560.1040@0.0.2560.1040" timestamp="1586945324092" />
+    <state x="1010" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1586945251484">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1010" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586945251484" />
+    <state width="2517" height="282" key="GridCell.Tab.0.bottom" timestamp="1586949074244">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1586949074244" />
+    <state width="2517" height="282" key="GridCell.Tab.0.center" timestamp="1586949074244">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1586949074244" />
+    <state width="2517" height="282" key="GridCell.Tab.0.left" timestamp="1586949074243">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1586949074243" />
+    <state width="2517" height="282" key="GridCell.Tab.0.right" timestamp="1586949074244">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="282" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1586949074244" />
     <state x="781" y="162" key="SettingsEditor" timestamp="1586861426577">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1586861426577" />
-    <state x="713" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1586872432852">
+    <state x="713" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1586944721556">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="713" y="290" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586872432852" />
+    <state x="713" y="290" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1586944721556" />
+    <state x="936" y="240" key="run.anything.popup" timestamp="1586949072893">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="936" y="240" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1586949072893" />
   </component>
 </project>

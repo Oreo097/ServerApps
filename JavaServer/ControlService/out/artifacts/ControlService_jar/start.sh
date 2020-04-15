@@ -1,0 +1,1 @@
+java -jar /home/pi/ftp/ControlService_jar/ControlService.jar

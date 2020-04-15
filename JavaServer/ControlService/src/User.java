@@ -6,7 +6,7 @@ import java.net.Socket;
  * Name:zt
  * Use for:set user object
  */
-public class USER {
+public class User {
 
     public Socket mySocket;
 
@@ -19,7 +19,7 @@ public class USER {
 
 
 
-    public USER(Socket mySocket){
+    public User(Socket mySocket){
         this.mySocket=mySocket;
     }
 
@@ -53,7 +53,7 @@ public class USER {
         initReceive();
     }
 
-    public void Write(String message){
+    public void Write(String message){//write to socket
         try {
             pwriter.write(message+ "\n");
             pwriter.flush();// clear buffer
@@ -62,7 +62,7 @@ public class USER {
         }
     }
 
-    public String Read(){
+    public String Read(){//read from socket
         String message=null;
         try {
             message = breader.readLine();
@@ -72,5 +72,12 @@ public class USER {
         }
         return message;
     }
+
+    public void shutdown() throws IOException {
+        mySocket.shutdownInput();
+        mySocket.shutdownOutput();
+        mySocket.close();
+    }
+
 
 }
